@@ -56,25 +56,9 @@ function initCurrentTimeVars() {
   }
  
   switch(currentQuarter) {
-    case "2023-Q2":
-      total_quota = 1000;
-      break;
-    case "2023-Q3":
-      total_quota = 1000;
-      break;
-    case "2023-Q4":
-      total_quota = 1000+75;
-      break;      
-    case "2024-Q1":
-        total_quota = 900;
-        break;      
-    case "2024-Q2":
-    case "2024-Q3":      
-    case "2024-Q4":          
-        total_quota = 900;
-          break;                        
+                      
     default:
-      total_quota = 900;
+      total_quota = 1000;
       break;
   }
 
